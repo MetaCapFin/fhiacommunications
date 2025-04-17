@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;600&display=swap');
+        body {
+            font-family: 'Mulish', sans-serif;
+            color: #303C42;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            min-height: 100vh;
+            background-color: #fff;
+        }
+        .header {
+            background-color: #fff;
+            color: #303C42;
+            padding: 20px 0;
+            text-align: center;
+            position: relative;
+            border-bottom: 2px solid transparent;
+            background-image: linear-gradient(to bottom, white, #0);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .header img {
+            height: 50px;
+            margin-bottom: 10px;
+        }
+        .header h1 {
+            margin: 0;
+            padding: 0 20px;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            width: 90%;
+            max-width: 600px;
+        }
+        .slider {
+            width: 100%;
+            max-width: 600px;
+            margin: 20px auto;
+        }
+        .slider img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        .content {
+            background-color: #0;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            margin-top: 40px;
+            max-width: 1200px;
+            margin: auto;
+            margin-bottom: 20px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            background-color: #BFD400;
+            color: #303C42;
+            text-decoration: none;
+            border-radius: 5px;
+            text-align: center;
+        }
+        .button:hover {
+            background-color: #a6b800;
+        }
+        .button-container {
+            text-align: center;
+            margin-top: 20px;
+        }
+        @media (max-width: 600px) {
+            .header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+            }
+            .header img {
+                position: static;
+                margin-bottom: 10px;
+            }
+            .header h1 {
+                padding: 0;
+            }
+            .container {
+                width: 100%;
+                padding: 10px;
+            }
+            .slider img {
+                max-width: 100%;
+                height: auto;
+            }
+            h1 {
+                font-size: 1.5em;
+                margin: 10px 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src="https://raw.githubusercontent.com/MetaCapFin/YgreneUpdates/main/public/ygrenelogofunnel.png" alt="Logo" />
+            <h1>Ygrene: FHIA Communication</h1>
+        </div>
+      <div>
+        <p>🚨 Ygrene | PACE financing is now live and available.</p>
+        <br>
+        <p>I’m excited to share that Ygrene PACE financing is now live and available for your use in select areas of Orlando! This is part of a renewed effort between Denis Kirk and myself (Carlos Alvarez) to make it easier for your team to close more deals with flexible financing options.</p>
+        <br>
+        <p>Ygrene offers alternative lending that isn’t based on credit or income, making it a powerful solution for homeowners who might not qualify through traditional channels — especially for projects like impact windows, roofing, HVAC, and more.</p>
+        <br>
+        <p>🔐 Access Your Ygrene Account:</p>
+        <br>
+        <p>We’ve created your Ygrene Contractor Portal accounts using your FHIA email address. To log in, simply:</p>
+        <div class="instructions">
+        <h2>Download the Ygrene App</h2>
+        <p>1. Download the Ygrene App on <a href="https://apps.apple.com">iOS</a> or <a href="https://play.google.com/store">Android</a> or <a href="https://www.ygrene.com">PC</a>.</p>
+        <p>2. Use your FHIA email address to log in.</p>
+        <p>3. Enter the temporary password: <strong>Ygrene@25</strong></p>
+        <p>4. Update your password when prompted.</p>
+        <p>You can begin submitting projects and checking property eligibility right away!</p>
+          
+        </div>
+      </div>    
+    </div>
+  <div class="content">
+        <h2>Contact us at:</h2>
+        <p>Should you have any question about the onboarding process please contact us through:</p>
+        <p>Email: <a href="mailto:support@ygrene.vip">support@ygrene.vip</a></p>
+        <p>Phone: +17867568940</p>
+    </div>
+    <div class="content">
+        <h2>Contact us at:</h2>
+        <p>Should you have any question about the onboarding process please contact us through:</p>
+        <p>Email: <a href="mailto:support@ygrene.vip">support@ygrene.vip</a></p>
+        <p>Phone: +17867568940</p>
+    </div>
+    <div class="button-container">
+        <a href="https://www.ygrene.vip/" class="button">Back to Lounge</a>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $('.slider').slick({
+                dots: true,
+                infinite: true,
+                speed: 500,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                arrows: true
+            });
+        });
+    </script>
+</body>
+</html>
